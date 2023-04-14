@@ -79,7 +79,7 @@ const Hero = () => {
             ur maize cropPredict the disease for your maize cropPredict the disease for your maize crop</p>
             <br></br><br></br>
             <animated.div style={buttonProps}>
-            <Link to="/diagnosesoil" className="transition ease-in-out duration-100 hover:bg-[#b8e4bb] bg-[#9ae19f] w-[14rem] px-6 py-4 text-[18px] rounded-md shadow-md font-semibold text-center">
+            <Link to="/soilanalysis" className="transition ease-in-out duration-100 hover:bg-[#b8e4bb] bg-[#9ae19f] w-[14rem] px-6 py-4 text-[18px] rounded-md shadow-md font-semibold text-center">
               Soil Analysis
             </Link>
           </animated.div>

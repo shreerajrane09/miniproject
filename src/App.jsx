@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route}  from 'react-router-dom';
 
-import {Home, Diseases, Resources, Diagnose, Disease } from './pages';
+import {Home, Diseases, Resources, Diagnose, Disease, Soilanalysis } from './pages';
 import { Navbar, Footer, ScrollToTop } from './components';
 import './App.css';
 
@@ -16,6 +16,7 @@ function App() {
           <Route path="/diseases/:id" element={<Disease />}></Route>
           <Route path="/resources" element={<Resources />}></Route>
           <Route path="/diagnose" element={<Diagnose />}></Route>
+          <Route path="/soilanalysis" element={<Soilanalysis />}></Route>
         </Routes>
       </main>
       <footer>
